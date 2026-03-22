@@ -2,14 +2,16 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 
-// Only load dotenv in development
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+  origin: '*',
+  credentials: true
+}))
 app.use(express.json())
 
 app.use('/api/auth', require('./routes/auth'))
@@ -24,18 +26,12 @@ app.get('/', (req, res) => res.send('DRIVE API running'))
 
 const PORT = process.env.PORT || 5000
 
-console.log('Starting server...')
-console.log('MONGO_URI exists:', !!process.env.MONGO_URI)
-console.log('PORT:', PORT)
+// Start server first — Render needs open port
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`)
+})
 
+// Then connect MongoDB
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => {
-    console.log('MongoDB connected')
-    app.listen(PORT, '0.0.0.0', () => {
-      console.log(`Server running on port ${PORT}`)
-    })
-  })
-  .catch(err => {
-    console.error('MongoDB connection error:', err.message)
-    process.exit(1)
-  })
+  .then(() => console.log('MongoDB connected'))
+  .catch(err => console.error('MongoDB error:', err.message))
