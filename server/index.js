@@ -18,7 +18,6 @@ app.use('/api/questions', require('./routes/questions'))
 app.use('/api/drive', require('./routes/drive'))
 app.use('/api/feedback', require('./routes/feedback'))
 app.use('/api/coding', require('./routes/coding'))
-app.use('/api/answersheet', require('./routes/answersheet'))
 app.use('/api/profile', require('./routes/profile'))
 
 app.get('/', (req, res) => res.send('DRIVE API running'))
