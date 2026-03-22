@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Zoho",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Zoho_logo_%282020%29.svg/200px-Zoho_logo_%282020%29.svg.png",
+    "difficulty": "medium",
+    "hidden": false,
+    "tags": ["product", "chennai", "no-placement-fee"],
+    "rounds": [
+      { "name": "Written Test", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "Technical Round 1", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "Technical Round 2", "type": "coding", "duration_mins": 60, "num_questions": 2, "cutoff_pct": 50 },
+      { "name": "HR Round", "type": "hr", "duration_mins": 30, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Freshworks",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Freshworks_logo.svg/200px-Freshworks_logo.svg.png",
+    "difficulty": "medium",
+    "hidden": false,
+    "tags": ["product", "chennai", "saas"],
+    "rounds": [
+      { "name": "Aptitude Test", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "Coding Round", "type": "coding", "duration_mins": 60, "num_questions": 2, "cutoff_pct": 55 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 30, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "TCS",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/200px-Tata_Consultancy_Services_Logo.svg.png",
+    "difficulty": "easy",
+    "hidden": false,
+    "tags": ["service", "mass-recruiter", "bangalore"],
+    "rounds": [
+      { "name": "TCS NQT", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 50 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 20, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Infosys",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/200px-Infosys_logo.svg.png",
+    "difficulty": "easy",
+    "hidden": false,
+    "tags": ["service", "mass-recruiter", "bangalore"],
+    "rounds": [
+      { "name": "Online Assessment", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 50 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 20, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Wipro",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/200px-Wipro_Primary_Logo_Color_RGB.svg.png",
+    "difficulty": "easy",
+    "hidden": false,
+    "tags": ["service", "mass-recruiter"],
+    "rounds": [
+      { "name": "Online Test", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 55 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 40, "num_questions": 10, "cutoff_pct": 50 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 20, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Aptean",
+    "logo": "https://www.aptean.com/favicon.ico",
+    "difficulty": "medium",
+    "hidden": false,
+    "tags": ["product", "erp", "chennai"],
+    "rounds": [
+      { "name": "Aptitude Test", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "Coding Round", "type": "coding", "duration_mins": 60, "num_questions": 2, "cutoff_pct": 50 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 30, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Honeywell",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Honeywell_logo.svg/200px-Honeywell_logo.svg.png",
+    "difficulty": "hard",
+    "hidden": false,
+    "tags": ["product", "mnc", "bangalore"],
+    "rounds": [
+      { "name": "Online Assessment", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 70 },
+      { "name": "Coding Test", "type": "coding", "duration_mins": 60, "num_questions": 2, "cutoff_pct": 60 },
+      { "name": "Technical Round 1", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "Technical Round 2", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 30, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Cognizant",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Cognizant_logo_2022.svg/200px-Cognizant_logo_2022.svg.png",
+    "difficulty": "easy",
+    "hidden": false,
+    "tags": ["service", "mass-recruiter", "chennai"],
+    "rounds": [
+      { "name": "GenC Test", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 40, "num_questions": 10, "cutoff_pct": 50 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 20, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/200px-Amazon_logo.svg.png",
+    "difficulty": "hard",
+    "hidden": true,
+    "tags": ["product", "mnc", "faang"],
+    "rounds": [
+      { "name": "Online Assessment", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 75 },
+      { "name": "Coding Round 1", "type": "coding", "duration_mins": 90, "num_questions": 2, "cutoff_pct": 65 },
+      { "name": "Coding Round 2", "type": "coding", "duration_mins": 90, "num_questions": 2, "cutoff_pct": 65 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 70 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 45, "num_questions": 5, "cutoff_pct": 50 }
+    ]
+  },
+  {
+    "name": "Microsoft",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/200px-Microsoft_logo.svg.png",
+    "difficulty": "hard",
+    "hidden": true,
+    "tags": ["product", "mnc", "faang"],
+    "rounds": [
+      { "name": "Online Assessment", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 75 },
+      { "name": "Coding Round", "type": "coding", "duration_mins": 90, "num_questions": 2, "cutoff_pct": 70 },
+      { "name": "Technical Round 1", "type": "technical", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 70 },
+      { "name": "Technical Round 2", "type": "technical", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 45, "num_questions": 5, "cutoff_pct": 50 }
+    ]
+  },
+  {
+    "name": "Paypal",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/200px-PayPal.svg.png",
+    "difficulty": "hard",
+    "hidden": true,
+    "tags": ["product", "fintech", "mnc"],
+    "rounds": [
+      { "name": "Online Test", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 70 },
+      { "name": "Coding Round", "type": "coding", "duration_mins": 60, "num_questions": 2, "cutoff_pct": 65 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 30, "num_questions": 5, "cutoff_pct": 45 }
+    ]
+  },
+  {
+    "name": "Walmart",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Walmart_Spark.svg/200px-Walmart_Spark.svg.png",
+    "difficulty": "medium",
+    "hidden": true,
+    "tags": ["product", "retail-tech", "mnc"],
+    "rounds": [
+      { "name": "Aptitude Test", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "Coding Round", "type": "coding", "duration_mins": 60, "num_questions": 2, "cutoff_pct": 60 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 45, "num_questions": 10, "cutoff_pct": 60 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 30, "num_questions": 5, "cutoff_pct": 40 }
+    ]
+  },
+  {
+    "name": "Atlassian",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Atlassian-logo.svg/200px-Atlassian-logo.svg.png",
+    "difficulty": "hard",
+    "hidden": true,
+    "tags": ["product", "mnc", "saas"],
+    "rounds": [
+      { "name": "Online Assessment", "type": "aptitude", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 70 },
+      { "name": "Coding Round", "type": "coding", "duration_mins": 90, "num_questions": 2, "cutoff_pct": 65 },
+      { "name": "Technical Interview", "type": "technical", "duration_mins": 60, "num_questions": 10, "cutoff_pct": 65 },
+      { "name": "HR Interview", "type": "hr", "duration_mins": 30, "num_questions": 5, "cutoff_pct": 45 }
+    ]
+  }
+]

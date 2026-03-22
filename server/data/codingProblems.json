@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Sum of Two Numbers",
+    "description": "Write a function called solve that takes two integers a and b and returns their sum.",
+    "examples": [
+      { "input": "3 5", "output": "8", "explanation": "3 + 5 = 8" },
+      { "input": "10 20", "output": "30", "explanation": "10 + 20 = 30" }
+    ],
+    "testCases": [
+      { "input": "3 5", "expectedOutput": "8" },
+      { "input": "10 20", "expectedOutput": "30" },
+      { "input": "-1 1", "expectedOutput": "0" },
+      { "input": "0 0", "expectedOutput": "0" }
+    ],
+    "difficulty": "easy",
+    "topic": "math",
+    "companies": ["tcs", "wipro", "cognizant", "infosys"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "def solve(a, b):\n    # Write your code here\n    pass\n\na, b = map(int, input().split())\nprint(solve(a, b))",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const [a, b] = input.trim().split(' ').map(Number);\n    function solve(a, b) {\n        // Write your code here\n    }\n    console.log(solve(a, b));\n});",
+      "java": "import java.util.*;\npublic class Main {\n    static int solve(int a, int b) {\n        // Write your code here\n        return 0;\n    }\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int a = sc.nextInt();\n        int b = sc.nextInt();\n        System.out.println(solve(a, b));\n    }\n}",
+      "cpp": "#include<iostream>\nusing namespace std;\nint solve(int a, int b) {\n    // Write your code here\n    return 0;\n}\nint main() {\n    int a, b;\n    cin >> a >> b;\n    cout << solve(a, b) << endl;\n    return 0;\n}"
+    }
+  },
+  {
+    "title": "Reverse a String",
+    "description": "Write a function called solve that takes a string and returns it reversed.",
+    "examples": [
+      { "input": "hello", "output": "olleh", "explanation": "Reverse of hello" },
+      { "input": "drive", "output": "evird", "explanation": "Reverse of drive" }
+    ],
+    "testCases": [
+      { "input": "hello", "expectedOutput": "olleh" },
+      { "input": "drive", "expectedOutput": "evird" },
+      { "input": "abcd", "expectedOutput": "dcba" },
+      { "input": "a", "expectedOutput": "a" }
+    ],
+    "difficulty": "easy",
+    "topic": "strings",
+    "companies": ["tcs", "wipro", "cognizant", "infosys"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "def solve(s):\n    # Write your code here\n    pass\n\ns = input().strip()\nprint(solve(s))",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const s = input.trim();\n    function solve(s) {\n        // Write your code here\n    }\n    console.log(solve(s));\n});",
+      "java": "import java.util.*;\npublic class Main {\n    static String solve(String s) {\n        // Write your code here\n        return \"\";\n    }\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String s = sc.nextLine().trim();\n        System.out.println(solve(s));\n    }\n}",
+      "cpp": "#include<iostream>\n#include<string>\nusing namespace std;\nstring solve(string s) {\n    // Write your code here\n    return \"\";\n}\nint main() {\n    string s;\n    cin >> s;\n    cout << solve(s) << endl;\n    return 0;\n}"
+    }
+  },
+  {
+    "title": "Find Maximum Element",
+    "description": "Write a function called solve that takes an array of n integers and returns the maximum element. First line is n, second line has n integers.",
+    "examples": [
+      { "input": "5\n3 1 4 1 5", "output": "5", "explanation": "Max of [3,1,4,1,5] is 5" },
+      { "input": "3\n10 20 15", "output": "20", "explanation": "Max of [10,20,15] is 20" }
+    ],
+    "testCases": [
+      { "input": "5\n3 1 4 1 5", "expectedOutput": "5" },
+      { "input": "3\n10 20 15", "expectedOutput": "20" },
+      { "input": "1\n42", "expectedOutput": "42" },
+      { "input": "4\n-1 -5 -3 -2", "expectedOutput": "-1" }
+    ],
+    "difficulty": "easy",
+    "topic": "arrays",
+    "companies": ["tcs", "wipro", "cognizant", "infosys"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "def solve(arr):\n    # Write your code here\n    pass\n\nn = int(input())\narr = list(map(int, input().split()))\nprint(solve(arr))",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const lines = input.trim().split('\\n');\n    const n = parseInt(lines[0]);\n    const arr = lines[1].split(' ').map(Number);\n    function solve(arr) {\n        // Write your code here\n    }\n    console.log(solve(arr));\n});",
+      "java": "import java.util.*;\npublic class Main {\n    static int solve(int[] arr) {\n        // Write your code here\n        return 0;\n    }\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        int[] arr = new int[n];\n        for(int i = 0; i < n; i++) arr[i] = sc.nextInt();\n        System.out.println(solve(arr));\n    }\n}",
+      "cpp": "#include<iostream>\n#include<vector>\nusing namespace std;\nint solve(vector<int>& arr) {\n    // Write your code here\n    return 0;\n}\nint main() {\n    int n;\n    cin >> n;\n    vector<int> arr(n);\n    for(int i = 0; i < n; i++) cin >> arr[i];\n    cout << solve(arr) << endl;\n    return 0;\n}"
+    }
+  },
+  {
+    "title": "Count Vowels in String",
+    "description": "Write a function called solve that counts the number of vowels (a,e,i,o,u) in a given string. Input is a single string.",
+    "examples": [
+      { "input": "hello", "output": "2", "explanation": "e and o are vowels" },
+      { "input": "zoho", "output": "2", "explanation": "o and o are vowels" }
+    ],
+    "testCases": [
+      { "input": "hello", "expectedOutput": "2" },
+      { "input": "zoho", "expectedOutput": "2" },
+      { "input": "rhythm", "expectedOutput": "0" },
+      { "input": "aeiou", "expectedOutput": "5" }
+    ],
+    "difficulty": "easy",
+    "topic": "strings",
+    "companies": ["zoho", "freshworks", "aptean"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "def solve(s):\n    # Write your code here\n    pass\n\ns = input().strip()\nprint(solve(s))",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const s = input.trim();\n    function solve(s) {\n        // Write your code here\n    }\n    console.log(solve(s));\n});",
+      "java": "import java.util.*;\npublic class Main {\n    static int solve(String s) {\n        // Write your code here\n        return 0;\n    }\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String s = sc.nextLine().trim();\n        System.out.println(solve(s));\n    }\n}",
+      "cpp": "#include<iostream>\n#include<string>\nusing namespace std;\nint solve(string s) {\n    // Write your code here\n    return 0;\n}\nint main() {\n    string s;\n    cin >> s;\n    cout << solve(s) << endl;\n    return 0;\n}"
+    }
+  },
+  {
+    "title": "Check Palindrome",
+    "description": "Write a function called solve that returns 'YES' if the given string is a palindrome, 'NO' otherwise.",
+    "examples": [
+      { "input": "racecar", "output": "YES", "explanation": "racecar reads same forwards and backwards" },
+      { "input": "hello", "output": "NO", "explanation": "hello is not a palindrome" }
+    ],
+    "testCases": [
+      { "input": "racecar", "expectedOutput": "YES" },
+      { "input": "hello", "expectedOutput": "NO" },
+      { "input": "madam", "expectedOutput": "YES" },
+      { "input": "drive", "expectedOutput": "NO" }
+    ],
+    "difficulty": "easy",
+    "topic": "strings",
+    "companies": ["zoho", "freshworks", "aptean"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "def solve(s):\n    # Write your code here\n    pass\n\ns = input().strip()\nprint(solve(s))",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const s = input.trim();\n    function solve(s) {\n        // return 'YES' or 'NO'\n    }\n    console.log(solve(s));\n});",
+      "java": "import java.util.*;\npublic class Main {\n    static String solve(String s) {\n        // return YES or NO\n        return \"\";\n    }\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String s = sc.nextLine().trim();\n        System.out.println(solve(s));\n    }\n}",
+      "cpp": "#include<iostream>\n#include<string>\nusing namespace std;\nstring solve(string s) {\n    // return YES or NO\n    return \"\";\n}\nint main() {\n    string s;\n    cin >> s;\n    cout << solve(s) << endl;\n    return 0;\n}"
+    }
+  },
+  {
+    "title": "FizzBuzz",
+    "description": "Write a function that prints numbers from 1 to n. For multiples of 3 print Fizz, for multiples of 5 print Buzz, for multiples of both print FizzBuzz. Input is n.",
+    "examples": [
+      { "input": "5", "output": "1\n2\nFizz\n4\nBuzz", "explanation": "3 is Fizz, 5 is Buzz" },
+      { "input": "15", "output": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz", "explanation": "15 is FizzBuzz" }
+    ],
+    "testCases": [
+      { "input": "5", "expectedOutput": "1\n2\nFizz\n4\nBuzz" },
+      { "input": "3", "expectedOutput": "1\n2\nFizz" },
+      { "input": "1", "expectedOutput": "1" },
+      { "input": "15", "expectedOutput": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz" }
+    ],
+    "difficulty": "easy",
+    "topic": "loops",
+    "companies": ["honeywell", "amazon", "microsoft", "walmart", "atlassian", "paypal"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "n = int(input())\nfor i in range(1, n+1):\n    # Write your code here\n    pass",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const n = parseInt(input.trim());\n    for(let i = 1; i <= n; i++) {\n        // Write your code here\n    }\n});",
+      "java": "import java.util.*;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        for(int i = 1; i <= n; i++) {\n            // Write your code here\n        }\n    }\n}",
+      "cpp": "#include<iostream>\nusing namespace std;\nint main() {\n    int n;\n    cin >> n;\n    for(int i = 1; i <= n; i++) {\n        // Write your code here\n    }\n    return 0;\n}"
+    }
+  },
+  {
+    "title": "Two Sum",
+    "description": "Given an array of n integers and a target sum, find two numbers that add up to the target. Print their indices (0-based) separated by space. First line is n, second line is array, third line is target.",
+    "examples": [
+      { "input": "4\n2 7 11 15\n9", "output": "0 1", "explanation": "nums[0] + nums[1] = 2 + 7 = 9" },
+      { "input": "3\n3 2 4\n6", "output": "1 2", "explanation": "nums[1] + nums[2] = 2 + 4 = 6" }
+    ],
+    "testCases": [
+      { "input": "4\n2 7 11 15\n9", "expectedOutput": "0 1" },
+      { "input": "3\n3 2 4\n6", "expectedOutput": "1 2" },
+      { "input": "2\n3 3\n6", "expectedOutput": "0 1" },
+      { "input": "4\n1 4 5 6\n9", "expectedOutput": "1 3" }
+    ],
+    "difficulty": "medium",
+    "topic": "arrays",
+    "companies": ["amazon", "microsoft", "atlassian", "paypal", "walmart"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "n = int(input())\narr = list(map(int, input().split()))\ntarget = int(input())\n\n# Write your code here\n# Print two indices separated by space",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const lines = input.trim().split('\\n');\n    const n = parseInt(lines[0]);\n    const arr = lines[1].split(' ').map(Number);\n    const target = parseInt(lines[2]);\n    // Write your code here\n    // console.log(i + ' ' + j)\n});",
+      "java": "import java.util.*;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        int[] arr = new int[n];\n        for(int i=0;i<n;i++) arr[i]=sc.nextInt();\n        int target = sc.nextInt();\n        // Write your code here\n    }\n}",
+      "cpp": "#include<iostream>\n#include<vector>\nusing namespace std;\nint main() {\n    int n; cin>>n;\n    vector<int> arr(n);\n    for(int i=0;i<n;i++) cin>>arr[i];\n    int target; cin>>target;\n    // Write your code here\n    return 0;\n}"
+    }
+  },
+  {
+    "title": "Fibonacci Series",
+    "description": "Write a function that prints the first n Fibonacci numbers separated by spaces. Input is n.",
+    "examples": [
+      { "input": "5", "output": "0 1 1 2 3", "explanation": "First 5 Fibonacci numbers" },
+      { "input": "7", "output": "0 1 1 2 3 5 8", "explanation": "First 7 Fibonacci numbers" }
+    ],
+    "testCases": [
+      { "input": "5", "expectedOutput": "0 1 1 2 3" },
+      { "input": "7", "expectedOutput": "0 1 1 2 3 5 8" },
+      { "input": "1", "expectedOutput": "0" },
+      { "input": "2", "expectedOutput": "0 1" }
+    ],
+    "difficulty": "easy",
+    "topic": "recursion",
+    "companies": ["honeywell", "zoho", "freshworks", "aptean"],
+    "timeLimit": 2,
+    "starterCode": {
+      "python": "n = int(input())\n# Write your code here\n# Print n fibonacci numbers separated by spaces",
+      "javascript": "process.stdin.resume();\nprocess.stdin.setEncoding('utf8');\nlet input = '';\nprocess.stdin.on('data', d => input += d);\nprocess.stdin.on('end', () => {\n    const n = parseInt(input.trim());\n    // Write your code here\n    // console.log(result.join(' '))\n});",
+      "java": "import java.util.*;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        // Write your code here\n    }\n}",
+      "cpp": "#include<iostream>\nusing namespace std;\nint main() {\n    int n; cin>>n;\n    // Write your code here\n    return 0;\n}"
+    }
+  }
+]
